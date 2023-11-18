@@ -6,6 +6,7 @@ const Dashboard = () => {
     // const isAdmin = true;
 
     const [isAdmin] = useAdmin();
+    console.log(isAdmin);
 
 
 

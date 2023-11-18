@@ -11,7 +11,7 @@ const useAxios = () => {
     const navigate = useNavigate()
     axiosSecure.interceptors.request.use(function (config) {
         const token = localStorage.getItem('access-token')
-        console.log('req stopped by inter septor');
+        // console.log('req stopped by inter septor');
         config.headers.authorization = `Bearer ${token}`
         return config;
     }, function (error) {

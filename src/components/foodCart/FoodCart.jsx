@@ -65,7 +65,7 @@ const FoodCart = ({ item }) => {
                 <p>{recipe}</p>
                 <div className="card-actions justify-end">
                     <button
-                        onClick={handleAddToCart()}
+                        onClick={handleAddToCart}
                         className="btn btn-outline border-0 bg-slate-200 border-b-4  mt-6 border-orange-400"
                     >Add to Cart</button>
                 </div>
